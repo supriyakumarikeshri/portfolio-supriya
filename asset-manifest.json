@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-supriya/static/css/main.ee4c403c.css",
+    "main.js": "/portfolio-supriya/static/js/main.54e0cf1b.js",
+    "static/js/453.4fbe9a93.chunk.js": "/portfolio-supriya/static/js/453.4fbe9a93.chunk.js",
+    "index.html": "/portfolio-supriya/index.html",
+    "main.ee4c403c.css.map": "/portfolio-supriya/static/css/main.ee4c403c.css.map",
+    "main.54e0cf1b.js.map": "/portfolio-supriya/static/js/main.54e0cf1b.js.map",
+    "453.4fbe9a93.chunk.js.map": "/portfolio-supriya/static/js/453.4fbe9a93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee4c403c.css",
+    "static/js/main.54e0cf1b.js"
+  ]
+}
