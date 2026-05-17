@@ -44,3 +44,49 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+# Initialize React + TypeScript project
+npx create-react-app supriya-portfolio --template typescript
+
+# Install Tailwind CSS
+ npm install -D tailwindcss postcss autoprefixer
+ npx tailwindcss init -p
+
+ # Add Tailwind to tailwind.config.js:
+ /** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        corporateBlue: "#1E40AF",
+        corporateGray: "#1F2937",
+      },
+    },
+  },
+  plugins: [],
+};
+
+# Add Tailwind directives to src/index.css:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+# Add Redux Toolkit
+npm install @reduxjs/toolkit react-redux
+
+# npm install react-router-dom
+
+# npm install react-icons
+
+# npm install lucide-react
+
+# install EmailJS
+
+
+
+
+
